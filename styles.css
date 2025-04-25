@@ -308,3 +308,55 @@ nav {
     gap: 1rem;
 }
 
+/* Contact Section */
+#contact {
+    background-color: white;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: #4a5568;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group.full-width {
+    grid-column: span 2;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
