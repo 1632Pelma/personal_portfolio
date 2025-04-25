@@ -162,11 +162,20 @@ nav {
 }
 
 .hero-image {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .profile-img {
@@ -193,19 +202,21 @@ nav {
 }
 
 .about-image {
-    width: 350px;
-    height: 350px;
+    width: 600px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
-    flex-shrink: 0;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.about-img {
+.about-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .about-text {
     max-width: 600px;
 }
