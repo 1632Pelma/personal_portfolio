@@ -14,3 +14,54 @@ h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.highlight {
+    color: #9f7aea;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #9f7aea;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #805ad5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #9f7aea;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.5rem;
+    border: 2px solid #9f7aea;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(159, 122, 234, 0.1);
+    transform: translateY(-2px);
+}
