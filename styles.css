@@ -4,3 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2d3748;
+    line-height: 1.6;
+}
