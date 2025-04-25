@@ -10,10 +10,12 @@ body {
     color: #2d3748;
     line-height: 1.6;
 }
+
 h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -358,5 +360,40 @@ input, textarea {
 textarea {
     min-height: 150px;
     resize: vertical;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3748;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #9f7aea;
+}
+
+.copyright {
+    color: #a0aec0;
+    font-size: 0.9rem;
 }
 
