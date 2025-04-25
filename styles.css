@@ -397,3 +397,68 @@ footer {
     font-size: 0.9rem;
 }
 
+    .hero-content, .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-buttons, .social-links {
+        justify-content: center;
+    }
+    
+    .hero-image, .about-image {
+        margin-top: 3rem;
+    }
+    
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-group.full-width {
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.4rem;
+    }
+    
+    .hero-image {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .about-image {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        transition: left 0.3s ease;
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+
+
+}
