@@ -253,6 +253,80 @@ nav {
     font-size: 0.9rem;
     font-weight: 600;
 }
+/* Portfolio Columns */
+.portfolio-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.portfolio-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #2d3436;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .portfolio-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Card and Experience Item Consistency */
+.card-item, .experience-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.card-item:hover, .experience-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Date Styling */
+.date {
+    display: block;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Tech Tags */
+.tech-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.tech-tag {
+    background: #f0f0f0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Achievement Badge */
+.achievement {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background: #f8f9fa;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #2ecc71;
+}
+
+.fa-award {
+    color: #f1c40f;
+}
 
 /* Projects Section */
 #projects {
