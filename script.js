@@ -39,6 +39,14 @@ const projects = [
         image:  "images/weather.png",
         liveLink: "https://courageous-sorbet-9e3375.netlify.app/",
         codeLink: "https://github.com/1632Pelma/weather_forecast"
+    },
+     {
+        title: "Houseplant Store",
+        description: "An E-commerce house plant store.",
+        technologies: ["HTML5", "CSS3", "JavaScript"],
+        image:  "images/plant.png",
+        liveLink: "http://localhost:3000/products",
+        codeLink: "https://github.com/1632Pelma/Houseplant-E-Commerce-Store"
     }
 
 
