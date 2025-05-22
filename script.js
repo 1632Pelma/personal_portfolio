@@ -57,7 +57,7 @@ const projects = [
 const projectsGrid = document.querySelector('.projects-grid');
 const contactForm = document.getElementById('contactForm');
 const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+
 const yearElement = document.getElementById('year');
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -93,13 +93,12 @@ function setCurrentYear() {
     yearElement.textContent = currentYear;
 }
 
-
+//DOM element for navigation
+const navLinks = document.querySelector('.nav-links');
 function initMobileMenu() {
     menuToggle.addEventListener('click', function() {
         navLinks.classList.toggle('active');
     });
-    
-  
     document.querySelectorAll('.nav-links a').forEach(link => {
         link.addEventListener('click', function() {
             navLinks.classList.remove('active');
